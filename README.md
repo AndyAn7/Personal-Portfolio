@@ -1,1 +1,1 @@
-# homeWork2
+    thisHomework2AssignmentIsTheFirstCompletedFromScratch-HtmlCssUsingAsAdvancedStylingAsPossibleWellAndClean.
