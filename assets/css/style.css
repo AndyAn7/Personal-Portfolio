@@ -49,10 +49,16 @@ li {
     align-content: space-evenly;
     margin-left: 25px;
     margin-top: 50px;
-    
+
     display:flex;
     flex-wrap: wrap;
 }
+
+aside {
+    float: right;
+    margin: 0 1.5%;
+    width: 30%;
+  }
 
 .item {
     background: #cccccc;
