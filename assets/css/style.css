@@ -8,19 +8,22 @@ body {
     background-color: #cccccc;
 }
 header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #d6d6d6;
-    size: 100%;
+    font-family:'IBM Plex Serif', serif;
+    size: 90%;
     padding: 20px 30px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    align-items: center;
+    position:fixed;
+    width:100%;
 }
 
 h1 {
     font-size: 50px;
     text-decoration-line: underline;
     color: black;
+    margin-top: 150px;
 }
 
 ul {
@@ -30,9 +33,10 @@ ul {
 }
 
 li {
-    display:inline-block;
+    display:inline-flex;
     padding-left: 10px;
     font-size: 25px;
+    margin-top: 130px;
 }
 
 .pulse a:hover {
@@ -40,22 +44,45 @@ li {
     animation-timing-function: linear;
 }
 
-.banner {
-    width: 100%;
+.hero {
+    height:400px;
+    background-image: url(https://img.wallpapersafari.com/tablet/2560/1700/34/23/jAZLIk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 20px 20px 0;
+}
+
+.hero h2 {
+    color: #cccccc;
+    background-color:black;
+    padding:15px;
+}
+
+.right-content {
+    flex:3;
+    padding: 0 0px 20px 20px;
 }
 
 .container {
     background: #adadad;
-    height: 740px;
-    width: 500px;
+    height: 665px;
+    width: 450px;
     padding: 0.5em;
     justify-content: space-evenly;
     align-content: space-evenly;
-    margin-left: 35px;
-    margin-top: 50px;
+    margin-left: 27px;
+    margin-top: 20px;
 
     display:flex;
     flex-wrap: wrap;
+}
+.item {
+    contain: content;
 }
 
 @keyframes pulse {
