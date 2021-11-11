@@ -1,31 +1,48 @@
 * {
     padding: 0;
     margin: 0;
-    color: black;
 }
 
 body {
-    background-color: #cccccc;
+    background-color:black;
     font-family:'IBM Plex Serif', serif;
+    height:max-content;
+}
+
+img {
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.644);
 }
 
 header {
-    font-family:'IBM Plex Serif', serif;
-    size: 90%;
-    padding: 20px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position:fixed;
-    width:100%;
+    border: 1px black solid;
+    height: 67px;
+    background-color: black;
 }
 
 h1 {
     font-size: 50px;
     text-decoration-line: underline;
     color: black;
-    margin-bottom: 20%;
-    margin-left: 2.75%;
+    margin-bottom: 10%;
+    display: flex;
+    flex: wrap;
+}
+
+h2 {
+    color: #cccccc;
+    background-color:black;
+    padding:20px;
+    margin-left: 77%;
+    display: flex;
+    flex: wrap;
+    margin-right: 20px;
+}
+
+h4 {
+    color:whitesmoke;
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 25px;
 }
 
 ul {
@@ -39,117 +56,116 @@ li {
     padding-left: 7px;
     font-size: 25px;
     margin-bottom: 5%;
+    
 }
 
+.pulse a:link {
+    color:black;
+    background-color:transparent;
+    display:flex;
+    flex:wrap;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.pulse a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
 .pulse a:hover {
     animation: pulse 1s infinite;
     animation-timing-function: linear;
 }
 
-.hero div{
-    
+.hero div {
+    align-content: flex-end;
 }
 
 .hero {
-    height:600px;
+    height: 500px;
     background-image: url(https://img.wallpapersafari.com/tablet/2560/1700/34/23/jAZLIk.jpg);
-    background-size: cover;
+    box-shadow: 10px 10px rgba(114, 114, 114, 0.644);
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment:fixed;
     display: flex;
     justify-content:space-between;
     align-items:flex-end;
-    padding: 0 20px 20px 0;
+    padding: 20px 100px 20px 100px;
 }
 
 .hero img {
     border-radius: 100%;
 }
 
-.pulse h1 {
-    justify-content: space-between;
-}
-
-h2 {
-    color: #cccccc;
-    background-color:black;
-    padding:20px;
-    margin-left: 77%;
-}
-
-main {
-    padding: 20px 20px 40px 50px;
-}
-
-section {
-    display:inline-flex;
-}
-
-#about aside {
-    text-align: left;
-    font-size:3em;
-    font-weight:900;
-    text-transform: uppercase;
-    padding-bottom: 40px;
-    border-right: 2px solid black;
-    flex:1;
-    padding-right: 5%;
-}
-
-#work aside {
-    text-align: left;
-    font-size:3em;
-    font-weight:900;
-    text-transform: uppercase;
-    padding-bottom: 40px;
-    border-right: 2px solid black;
-    flex:1;
-    padding-right: 6.05%;
-}
-
-#resume aside {
-    text-align: left;
-    font-size:3em;
-    font-weight:900;
-    text-transform: uppercase;
-    padding-bottom: 40px;
-    border-right: 2px solid black;
-    flex:1;
-    padding-right: 3.38%;
-}
-
-#contact aside {
-    text-align: left;
-    font-size:3em;
-    font-weight:900;
-    text-transform: uppercase;
-    padding-bottom: 40px;
-    border-right: 2px solid black;
-    flex:1;
-    padding-right: 1.65%;
+.left-content {
+    padding-top: 15px;
+    display:flex;
+    flex-direction: column;
 }
 
 .right-content {
-    flex:20px;
-    padding: 5px;
-}
-
-.container {
-    background: #adadad;
-    height: 665px;
-    width: 450px;
-    padding: 0.5em;
-    justify-content: space-evenly;
-    align-content: space-evenly;
-    margin-left: 27px;
-    margin-top: 20px;
-
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
-.item {
-    contain: content;
+
+.mainContent-left {
+    box-sizing: content-box;
+    width: 40%;
+    margin-left: 98px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent-right {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column; 
+    width: 60%;
+    padding-top: 15px;
+}
+
+.content {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.box1 {
+    width:400px;
+    height: 200px;
+    background-color:black;
+    color: whitesmoke;
+}
+
+.box2 {
+    border:whitesmoke 1px solid;
+    width: auto;
+    height: 200px;
+    background-color:black;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.textFont1 {
+    color: whitesmoke;
+    display: flex;
+    margin-top: 98px;
+    font-size: 80px;
+    height: 200px;
+    width: 400px;
+}
+
+.textFont2 {
+    color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    font-size:45px;
+    width: auto;
+    height: 200px;
 }
 
 @keyframes pulse {
