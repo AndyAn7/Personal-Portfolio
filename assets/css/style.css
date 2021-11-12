@@ -35,7 +35,7 @@ h2 {
     margin-left: 77%;
     display: flex;
     flex: wrap;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 h4 {
@@ -106,11 +106,6 @@ li {
     flex-direction: column;
 }
 
-.right-content {
-    display:flex;
-    flex-direction: column;
-}
-
 .mainContent-left {
     box-sizing: content-box;
     width: 40%;
@@ -122,33 +117,73 @@ li {
 .mainContent-right {
     box-sizing: content-box;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     width: 60%;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 .content {
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+#lowerLink {
+    margin-top: 35px;
+    flex-direction: row;
 }
 
 .box1 {
     width:400px;
-    height: 200px;
+    height: auto;
     background-color:black;
     color: whitesmoke;
 }
 
-.box2 {
+.box2a {
     border:whitesmoke 1px solid;
-    width: auto;
-    height: 200px;
+    width: 1250px;
+    height: 500px;
     background-color:black;
     color: whitesmoke;
-    margin-bottom: 15px;
     margin-right: 15px;
+    margin-top: 55px;
+    background-image: url(https://visualartideas.com/wp-content/uploads/2018/04/Fine-Art-Photography-Black-and-White-of-Landscape.jpg);
 }
+
+.box2 {
+    border:whitesmoke 1px solid;
+    width: 400px;
+    height: 490px;
+    background-color:black;
+    color: whitesmoke;
+    margin-right: 15px;
+    margin-top: 35px;
+    background-image: url(https://i.pinimg.com/originals/f1/06/fe/f106fef166981450e1295678c18ea854.jpg);
+}
+
+.box3 {
+    border:whitesmoke 1px solid;
+    width: 400px;
+    height: 490px;
+    background-color:black;
+    color: whitesmoke;
+    margin-right: 15px;
+    margin-top: 35px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/51Rujt8S4ZL._QL70_.jpg);
+}
+
+.box4 {
+    border:whitesmoke 1px solid;
+    width: 400px;
+    height: 490px;
+    background-color:black;
+    color: whitesmoke;
+    margin-right: 15px;
+    margin-top: 35px;
+    background-image: url(https://i.pinimg.com/originals/69/ca/77/69ca776e1d1fa6137fb2afc038ff0423.jpg);
+}
+
 .textFont1 {
     color: whitesmoke;
     display: flex;
@@ -161,7 +196,7 @@ li {
 .textFont2 {
     color: whitesmoke;
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
     font-size:45px;
     width: auto;
@@ -185,7 +220,7 @@ a {
     font-weight: bold;
     padding: 20px;
   }
-
+/*
   @media screen and (max-width:768px) {
 
     section {
@@ -194,4 +229,4 @@ a {
     aside h3 {
         text-align: left;
     }
-}
+}*/
