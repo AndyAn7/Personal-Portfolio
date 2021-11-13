@@ -8,6 +8,6 @@
 
    [urlGitHubRepo](https://github.com/AndyAn7/homeWork2.git)
 
-   [image](https://github.com/AndyAn7/homeWork2/blob/main/Screenshot%202021-11-11%20224351.png?raw=true)
+   ![image](https://github.com/AndyAn7/homeWork2/blob/main/Screenshot%202021-11-11%20224351.png?raw=true)
 
-   [image](https://github.com/AndyAn7/homeWork2/blob/main/screenShot/Screenshot%202021-11-11%20224351.png?raw=true)
+   ![image](https://github.com/AndyAn7/homeWork2/blob/main/screenShot/Screenshot%202021-11-11%20224351.png?raw=true)
