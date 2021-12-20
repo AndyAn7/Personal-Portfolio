@@ -1,250 +1,157 @@
 * {
-    padding: 0;
-    margin: 0;
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    color: #f4f4f4;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
 }
 
-/* styling of body */
-body {
-    background-color:black;
-    font-family:'IBM Plex Serif', serif;
-    height:max-content;
-}
-/* styling of personal photo*/
-img {
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.644);
-}
-
-/* styling of header*/
 header {
-    border: 1px black solid;
-    height: 67px;
-    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 2px;
+    margin: 5px;
+    max-width: 100%;
 }
 
-/* parameters of personal name */
 h1 {
-    font-size: 50px;
-    text-decoration-line: underline;
-    color: black;
-    margin-bottom: 10%;
-    display: flex;
-    flex: wrap;
-}
- /* parameters of assignment name*/
-h2 {
-    color: #cccccc;
-    background-color:black;
-    padding:20px;
-    margin-left: 77%;
-    display: flex;
-    flex: wrap;
-    margin-right: 15px;
+    font-size: 15px;
+    align-self: center;
+    opacity: .65;
 }
 
-/* parameters of program name*/
-h4 {
-    color:whitesmoke;
-    text-align: end;
-    margin-right: 20px;
-    margin-top: 25px;
-}
-
-/* style of unordered list in navigation pane within hero*/
-ul {
-    list-style-type: none;
-    width: 100%;
-    overflow: hidden;
-}
-
-/* list items of navClassPulse */
 li {
-    display:inline-flex;
-    padding-left: 7px;
+    display: inline-flex;
+    align-self: center;
     font-size: 25px;
-    margin-bottom: 5%;
+    text-align: justify;
+    padding: 0px 16px 0 16px;
+}
+
+li a:hover {
+    transform: scale(1.5);
+    transition: all ease 1.5s;
+    background: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body section {
+    height: 70vh;
+}
+.intro {
+    background-image: url(/assets/images/bg.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: space-around;
+
+}
+.intro img {
+    border-radius: 100%;
+    max-width: 28vw;
+    max-height: 28vw;
+    padding: 2px;
+    margin:auto;
+    margin-left: 5vw;
+}
+.authName {
+    background: none;
+    color:black;
+    font-size: 7vw;
+    margin: auto;
+    margin-right: 10vw;
+    width: 42vw;
+}
+.main {
+    display:flex;
+    border-color:blue;
+}
+
+.main aside a {
+    line-height: 50px;
+    font-size: 75px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    align-items: flex-end;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+}
+
+aside a:hover {
+    transform: scale(.9);
+    transition: all ease 1.5s;
+    background: none;
+    cursor: grab;
+}
+
+.projects {
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.projects img {
+    width: 33%;
+    height: 38%;
+    margin-left: 2px;
     
 }
 
-/* styling of navPane line items*/
-.pulse a:link {
-    color:black;
-    background-color:transparent;
-    display:flex;
-    flex:wrap;
-    margin-right: 15px;
-    text-decoration: none;
+#about1 {
+    width:100%;
+    height:60%;
+    padding: 15px;
 }
 
-/* styling of line items after they have clicked*/
-.pulse a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-/* styling of list item whole cursor is hovering */
-.pulse a:hover {
-    animation: pulse 1s infinite;
-    animation-timing-function: linear;
-}
-
-/* alignment location or navPane */
-.hero div {
-    align-content: flex-end;
-}
-
-/* styling of hero that includes background image, profile photo, name, and navPane */
-.hero {
-    height: 500px;
-    background-image: url(https://img.wallpapersafari.com/tablet/2560/1700/34/23/jAZLIk.jpg);
-    box-shadow: 10px 10px rgba(114, 114, 114, 0.644);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment:fixed;
-    display: flex;
-    justify-content:space-between;
-    align-items:flex-end;
-    padding: 20px 100px 20px 100px;
-}
-
-/* styling of personal photo */
-.hero img {
-    border-radius: 100%;
-}
-
-/* styling of parent element in body */
-.content {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: flex-start;
-}
-/* styling of parent located in left-portion of body */
-.left-content {
-    padding-top: 15px;
-    display:flex;
-    flex-direction: column;
-}
-
-/* styling of children of leftContent */
-.mainContent-left {
-    box-sizing: content-box;
-    width: 40%;
-    margin-left: 98px;
-    display: flex;
-    flex-direction: column;
-}
-
-/* styling of main box on right side of body */
-.mainContent-right {
-    box-sizing: content-box;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    padding-top: 25px;
-}
-
-/* styling of bottom three boxes located beneath main aboutMe photo*/
-#lowerLink {
-    margin-top: 35px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-}
-
-/* individual styling of boxes in lowerLink */
-.box1 {
-    width:400px;
-    height: auto;
-    background-color:black;
-    color: whitesmoke;
-}
-/* individual styling of main aboutMe box */
-.box2a {
-    border:whitesmoke 1px solid;
-    width: 1250px;
-    height: 500px;
-    background-color:black;
-    color: whitesmoke;
-    margin-right: 15px;
-    margin-top: 55px;
-    image-rendering: pixelated;
-    background-image: url(https://visualartideas.com/wp-content/uploads/2018/04/Fine-Art-Photography-Black-and-White-of-Landscape.jpg);
-}
-
-/* styling of work box */
-.box2 {
-    border:whitesmoke 1px solid;
-    width: 400px;
-    height: 490px;
-    background-color:black;
-    color: whitesmoke;
-    margin-right: 15px;
-    margin-top: 35px;
-    background-image: url(https://i.pinimg.com/originals/f1/06/fe/f106fef166981450e1295678c18ea854.jpg);
-}
-
-/* styling of resume box */
-.box3 {
-    border:whitesmoke 1px solid;
-    width: 400px;
-    height: 490px;
-    background-color:black;
-    color: whitesmoke;
-    margin-right: 15px;
-    margin-top: 35px;
-    background-image: url(https://images-na.ssl-images-amazon.com/images/I/51Rujt8S4ZL._QL70_.jpg);
-}
-
-/* styling of contact box */
-.box4 {
-    border:whitesmoke 1px solid;
-    width: 400px;
-    height: 490px;
-    background-color:black;
-    color: whitesmoke;
-    margin-right: 15px;
-    margin-top: 35px;
-    /*background-image: url(https://i.pinimg.com/originals/69/ca/77/69ca776e1d1fa6137fb2afc038ff0423.jpg);*/
-}
-
-/* styling of text within mainContentLeft*/
-.textFont1 {
-    color: whitesmoke;
-    display: flex;
-    margin-top: 98px;
-    font-size: 80px;
-    height: 200px;
-    width: 400px;
-}
-
-/* styling of text in mainContentRight and lowerLink */
-.textFont2 {
-    color: whitesmoke;
-    display:flex;
-    justify-content: flex-start;
-    align-content: center;
-    font-size:45px;
-    width: auto;
-    height: 200px;
-    margin-left: 10px;
-}
-
-/* code that styles the hover affect of navPane */
-@keyframes pulse {
-    0% { transform: scale(1);
-}
-    50% { transform: scale(1.2);
-}
-    100% { transform: scale(1);
-}
-}
-a {
-    margin: auto;
-    overflow: hidden;
-    margin-top: 30px; 
-    text-align: center;
-    display: block;
-    font-weight: bold;
+footer {
     padding: 20px;
-  }
+}
+
+@media screen and (max-width:960px) {
+   h1 {
+       display:none;
+   }
+   
+   nav li {
+       justify-content: space-around;
+       width: 100vw;
+   }
+
+   .intro {
+       height:25%;
+   }
+
+   .intro img {
+       margin-top:125px;
+       margin-bottom: 50px;
+   }
+
+   .authName {
+       margin-bottom: 150px;
+   }
+
+   .main {
+       font-size: 100vw;
+   }
+
+   .projects {
+       display: none;
+   }
+}
+   
+@media screen and (max-width: 1700px) {
+    #about2, #about3, #about4 {
+        display: none;
+    }
+
+    #about1 {
+        height: 70vh;
+    }
+}

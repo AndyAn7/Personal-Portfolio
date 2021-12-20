@@ -1,70 +1,56 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- lists all stylesheets utilized as well as authors and content-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="AndrewAn">   
-    <meta name="secondHomeworkAssignmentForUWFSBC" content="HtmlWireframeAdvancedCss">
-    <link rel="stylesheet" href="assets\css\reset.css" alt="reset">
-    <link rel="stylesheet" href="assets\css\style.css" alt="cssStyleSheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200&display=swap" rel="stylesheet">
-    <title>AndyAn7Portfolio</title>
+    <title>Andrew An</title>
+    <link rel="stylesheet" href="assets\reset.css">
+    <link rel="stylesheet" href="assets\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 
-<!-- header naming program of education program -->
-<header class="webHeader">
-    <h4>huskyFullStack</h4>
+<header>
+    <h1>Husky <em>full</em>Stack</h1>
+    <nav>
+        <ul>
+            <li><a href="#About Me">About Me</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Github">Git</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
 </header>
 
-<!-- location of personal photo, name, and quickLinks to body items along with the assignment name -->
-    <div class="hero">
-        <div>
-            <h1>Andrew Michael An</h1>
-            <img src="./assets/personalPortrait.jpg" alt="imageOfAuthor">
-        </div>
-        <nav class="pulse">
-            <ul>
-                <li> <a href="#about">About Me</a></li>
-                <li> <a href="#work">Work</a></li>
-                <li> <a href="#resume">Resume</a></li>
-                <li> <a href="#contact">Contact</a></li>
-            </ul>
-            <h2>homeWork2</h2>
-        </nav>
-    </div>
-
-    <!-- content of page, left, right, and lowerLink where portfolio items are accounted -->
 <body>
-    <div class="content">
-        <div class="left-content">
-            <nav class="mainContent-left">
-                <div class="box1" id="about"><p class="textFont1">About Me</p></div>
-                <div class="box1" id="work"><p class="textFont1">Work</p></div>
-                <div class="box1" id="resume"><p class="textFont1">Resume</p></div>
-                <div class="box1" id="contact"><p class="textFont1">Contact</p></div>
-            </nav>
-        </div>
 
-        <div>
-            <nav class="mainContent-right">
-                <div class="box2a" id="about"><p class="textFont2">About Me</p></div>
-            </nav>
+    <section class="intro">
+            <img src="assets\profilePic.png" alt="Image of author" style="width: 40%; height:40%;">
+            
+            <p class="authName">
+                Andrew M. An
+            </p>
+    </section>
 
-            <nav>
-                <div id="lowerLink">
-                    <div class="box2" id="work"><p class="textFont2">Work</p></div>
-                    <div class="box3" id="resume"><p class="textFont2">Resume</p></div>
-                    <div class="box4" id="contact"><p class="textFont2">Contact</p></div>
-                </div>                
-            </nav>
-        </div>
-    </div>
-    
+    <main>
+        <section class="main">
+        <aside>
+            <a href="https://www.instagram.com/ghengisan/" id="About Me">About</a>
+            <a href="https://github.com/AndyAn7/Personal-Portfolio" id="Portfolio">Portfolio</a>
+            <a href="https://github.com/AndyAn7" id="Github">Github</a>
+            <a href="mailto: andyan7@hotmail.com" id="Contact">Contact</a>
+        </aside>
+
+        <aside class="projects">
+            <img src="assets\images\about.jpg" id="about1">
+            <img src="assets\images\github.jpg" id="about2">
+            <img src="assets\images\work.jpg" id="about3">
+            <img src="assets\images\contact.jpg" id="about4">
+        </aside>
+        </section>
+    </main>
+
+    <footer></footer>
+
 </body>
 </html>
