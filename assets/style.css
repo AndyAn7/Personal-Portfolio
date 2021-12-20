@@ -2,9 +2,6 @@
     background: black;
     font-family: 'Roboto', sans-serif;
     color: #f4f4f4;
-    border-color: red;
-    border-style: solid;
-    border-width: 1px;
 }
 
 header {
@@ -44,7 +41,7 @@ body section {
     height: 70vh;
 }
 .intro {
-    background-image: url(/assets/images/bg.jpg);
+    background-image: url(https://github.com/AndyAn7/Personal-Portfolio/blob/main/images/bg.jpg?raw=true);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,7 +52,7 @@ body section {
 .intro img {
     border-radius: 100%;
     max-width: 28vw;
-    max-height: 28vw;
+    max-height: 40vw;
     padding: 2px;
     margin:auto;
     margin-left: 5vw;
@@ -111,7 +108,8 @@ aside a:hover {
 }
 
 footer {
-    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 @media screen and (max-width:960px) {
