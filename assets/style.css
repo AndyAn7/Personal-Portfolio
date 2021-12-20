@@ -152,4 +152,8 @@ footer {
     #about1 {
         height: 70vh;
     }
+
+    footer {
+        display: none;
+    }
 }
