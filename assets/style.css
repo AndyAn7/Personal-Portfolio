@@ -4,6 +4,7 @@
     color: #f4f4f4;
 }
 
+/** all CSS is in order of appearance within html **/
 header {
     display: flex;
     flex-wrap: wrap;
@@ -27,6 +28,7 @@ li {
     padding: 0px 16px 0 16px;
 }
 
+/** hover feature for links in navbar **/
 li a:hover {
     transform: scale(1.5);
     transition: all ease 1.5s;
@@ -40,6 +42,8 @@ a {
 body section {
     height: 70vh;
 }
+
+/** background image **/
 .intro {
     background-image: url(https://github.com/AndyAn7/Personal-Portfolio/blob/main/images/bg.jpg?raw=true);
     background-size: 100% 100%;
@@ -49,6 +53,8 @@ body section {
     justify-content: space-around;
 
 }
+
+/** profile photo **/
 .intro img {
     border-radius: 100%;
     max-width: 28vw;
@@ -57,6 +63,8 @@ body section {
     margin:auto;
     margin-left: 5vw;
 }
+
+/** author's name **/
 .authName {
     background: none;
     color:black;
@@ -65,11 +73,13 @@ body section {
     margin-right: 10vw;
     width: 42vw;
 }
+
 .main {
     display:flex;
     border-color:blue;
 }
 
+/** aside content with links to pages **/
 .main aside a {
     line-height: 50px;
     font-size: 75px;
@@ -82,6 +92,7 @@ body section {
     margin-bottom: 5vh;
 }
 
+/** hover feature of aside content **/
 aside a:hover {
     transform: scale(.9);
     transition: all ease 1.5s;
@@ -112,6 +123,7 @@ footer {
     padding-top: 20px;
 }
 
+/** media queries **/
 @media screen and (max-width:960px) {
    h1 {
        display:none;
