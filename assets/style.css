@@ -31,7 +31,7 @@ li {
 /** hover feature for links in navbar **/
 li a:hover {
     transform: scale(1.5);
-    transition: all ease 1.5s;
+    transition: all ease 1.5s;  
     background: none;
 }
 
@@ -76,7 +76,6 @@ body section {
 
 .main {
     display:flex;
-    border-color:blue;
 }
 
 /** aside content with links to pages **/
