@@ -8,6 +8,6 @@
 
    [urlGitHubRepo](https://github.com/AndyAn7/personal-portfolio.git)
 
-   ![image](https://github.com/AndyAn7/homeWork2/blob/main/screenShot/ss1.png?raw=true)
+   ![image](https://github.com/AndyAn7/Personal-Portfolio/blob/main/assets/images/ss1.png?raw=true)
 
-   ![image](https://github.com/AndyAn7/homeWork2/blob/main/screenShot/ss2.png?raw=true)
+   ![image](https://github.com/AndyAn7/Personal-Portfolio/blob/main/assets/images/ss2.png?raw=true)
