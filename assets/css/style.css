@@ -83,7 +83,7 @@ body section {
 }
 
 /** aside content with links to pages **/
-.main aside a {
+.main .asideLinks {
     line-height: 50px;
     font-size: 75px;
     display: flex;
@@ -96,7 +96,7 @@ body section {
 }
 
 /** hover feature of aside content **/
-aside a:hover {
+.asideLinks:hover {
     transform: scale(.9);
     transition: all ease 1.5s;
     background: none;
@@ -110,7 +110,7 @@ aside a:hover {
 
 .projects img {
     width: 33%;
-    height: 38%;
+    height: 51%;
     margin-left: 2px;
     
 }
@@ -119,6 +119,35 @@ aside a:hover {
     width:100%;
     height:60%;
     padding: 15px;
+    filter: grayscale(100%);
+}
+
+#about1:hover {
+    filter:grayscale(0%);
+}
+
+#about2 {
+    filter: grayscale(100%);
+}
+
+#about2:hover {
+    filter:grayscale(0%);
+}
+
+#about3 {
+    filter: grayscale(100%);
+}
+
+#about3:hover {
+    filter: grayscale(0%);
+}
+
+#about4 {
+    filter: grayscale(100%);
+}
+
+#about4:hover {
+    filter:grayscale(0%);
 }
 
 footer {
