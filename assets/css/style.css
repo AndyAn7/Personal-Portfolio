@@ -4,6 +4,10 @@
     color: #f4f4f4;
 }
 
+html {
+    min-height:100%;
+}
+
 /** all CSS is in order of appearance within html **/
 header {
     display: flex;
@@ -118,8 +122,10 @@ aside a:hover {
 }
 
 footer {
-    text-align: center;
-    padding-top: 40px;
+    justify-content: center;
+    margin-top: 10vh;
+    display: flex;
+    flex-shrink: 0;
 }
 
 /** media queries **/
