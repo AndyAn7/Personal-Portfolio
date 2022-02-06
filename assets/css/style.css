@@ -126,6 +126,7 @@ footer {
     margin-top: 10vh;
     display: flex;
     flex-shrink: 0;
+    font-size: 20px;
 }
 
 /** media queries **/
@@ -171,6 +172,8 @@ footer {
     }
 
     footer {
-        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
     }
 }
