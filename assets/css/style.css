@@ -109,7 +109,8 @@ a {
 .projects a {
     display: inline-flex;
     width: 33%;
-    margin: 5px 0;    
+    margin: 5px 0;
+    position: relative;    
 }
 
 .projects a:first-of-type, .projects a:last-of-type {
@@ -118,6 +119,13 @@ a {
 
 .projects img {
     width: 100%;
+}
+
+.project-title {
+    position: absolute;
+    top: 10%;
+    font-size: 30px;
+    padding: 5px;
 }
 
 #about1, #about5 {
