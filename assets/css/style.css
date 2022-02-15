@@ -142,6 +142,10 @@ a {
     max-width: min-content;
 }
 
+.ui-dialog-titlebar {
+    background-color: #ffffff;
+}
+
 .ui-dialog-buttonset {
     background-color: white;
 }
