@@ -128,6 +128,28 @@ a {
     padding: 5px;
 }
 
+/* modal styling */
+.modal p {
+    background-color: #ffffff;
+    color: black;
+    font-size: 30px;
+
+}
+
+.ui-dialog-title {
+    background-color: #ffffff;
+    color: black;
+    max-width: min-content;
+}
+
+.ui-dialog-buttonset {
+    background-color: white;
+}
+
+.ui-button-icon {
+    background-color: white;
+}
+
 #about1, #about5 {
     width:100%;
     filter: grayscale(100%);
