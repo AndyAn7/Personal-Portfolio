@@ -9,6 +9,8 @@
 - CSS
 - JS
    
+## [License](License)
+MIT
 
    [deployedApplication](https://andyan7.github.io/Personal-Portfolio)
 
