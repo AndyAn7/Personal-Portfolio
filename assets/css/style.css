@@ -237,10 +237,6 @@ footer {
         display: none;
     }
 
-    /* #about1 {
-        height: 70vh;
-    } */
-
     footer {
         display: flex;
         flex-wrap: wrap;
