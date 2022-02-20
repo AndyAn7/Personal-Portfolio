@@ -237,13 +237,17 @@ footer {
         display: none;
     }
 
-    #about1 {
+    /* #about1 {
         height: 70vh;
-    }
+    } */
 
     footer {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
+    }
+
+    .project-title {
+        display: none;
     }
 }
