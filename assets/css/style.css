@@ -200,7 +200,7 @@ footer {
 }
 
 /** media queries **/
-@media screen and (max-width:960px) {
+@media screen and (max-width:970px) {
    h1 {
        display:none;
    }
@@ -213,7 +213,6 @@ footer {
    .intro {
        height:25%;
    }
-
    .intro img {
        margin-top:125px;
        margin-bottom: 50px;
@@ -226,24 +225,27 @@ footer {
    .main {
        font-size: 100vw;
    }
-
-   .projects {
-       display: none;
+   .projects a {
+       width: 100%;
    }
-}
    
-@media screen and (max-width: 1700px) {
-    #about2, #about3, #about4 {
-        display: none;
+}
+
+@media screen and (max-width: 545px) {
+
+    .main .asideLinks {
+        font-size: 50px;
+        line-height: 10px;
+        align-items: center;
+        width: 100%;
+    }
+    .sepSec {
+        display: block;
+        width: 100%;
     }
 
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-
-    .project-title {
-        display: none;
+    .intro img {
+        max-width: 60vw;
+        max-height: 80vw;
     }
 }
