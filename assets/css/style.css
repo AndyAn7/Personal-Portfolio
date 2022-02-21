@@ -206,8 +206,7 @@ footer {
    }
    
    nav li {
-       justify-content: space-around;
-       width: 100vw;
+       display: none;
    }
 
    .intro {
@@ -234,10 +233,12 @@ footer {
 @media screen and (max-width: 545px) {
 
     .main .asideLinks {
-        font-size: 50px;
+        font-size: 25px;
         line-height: 10px;
         align-items: center;
         width: 100%;
+        padding: 10px;
+        margin: 10px;
     }
     .sepSec {
         display: block;
