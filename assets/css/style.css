@@ -106,18 +106,24 @@ a {
     padding: 5px;
 }
 
-.projects a {
+.project {
     display: inline-flex;
     width: 33%;
     margin: 5px 0;
-    position: relative;    
+    position: relative;
+    filter: grayscale(100%);
+    
 }
 
-.projects a:first-of-type, .projects a:last-of-type {
+.project:hover {
+    filter: unset;
+}
+
+.project:first-of-type, .project:last-of-type {
     width: 100%;
 }
 
-.projects img {
+.project img {
     width: 100%;
 }
 
@@ -152,43 +158,6 @@ a {
 
 .ui-button-icon {
     background-color: white;
-}
-
-#about1, #about5 {
-    width:100%;
-    filter: grayscale(100%);
-}
-
-#about1:hover {
-    filter:grayscale(0%);
-}
-
-#about2 {
-    filter: grayscale(100%);
-}
-
-#about2:hover {
-    filter:grayscale(0%);
-}
-
-#about3 {
-    filter: grayscale(100%);
-}
-
-#about3:hover {
-    filter: grayscale(0%);
-}
-
-#about4 {
-    filter: grayscale(100%);
-}
-
-#about4:hover {
-    filter:grayscale(0%);
-}
-
-#about5:hover {
-    filter:grayscale(0%);
 }
 
 footer {
