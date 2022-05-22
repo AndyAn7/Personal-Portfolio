@@ -9,7 +9,7 @@
 - CSS
 - JS
 
-## [Appplication](Application)
+## [Application](Application)
 [deployedApplication](https://andyan7.github.io/Personal-Portfolio)
 
 [urlGitHubRepo](https://github.com/AndyAn7/personal-portfolio.git)
